@@ -1,1 +1,1 @@
-This is a text adventur made with python.
+This is a text adventure made with python.
