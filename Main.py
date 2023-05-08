@@ -1,7 +1,14 @@
 import time
-print("you have entered the castle")
+print("you are a brave adventurer looking for a quest")
 time.sleep(1)
 input("press space to continue")
+print("you spot a Castle")
+input()
+print("you have decided to see what awaits in this castle")
+input
+print("you have entered the castle")
+time.sleep(1)
+
 thing
 if thing == 1:
   print("You have reached a door")
