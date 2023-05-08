@@ -1,5 +1,7 @@
 import time
-print("You are a adventurer strolling through the forrest")
+import random
+goldCoins=10
+print("You are strolling through the forrest")
 time.sleep(1)
 input("press space to continue")
 print("You have found a strange looking house")
@@ -11,12 +13,18 @@ if input("go in to the house?(type 1 for yes type 2 for no)")==2:
   exit()
 print("You enter the strange looking house")
 input()
-print(Old Man:What are you doing here!)
+print("Old Man:What are you doing here!")
 input()
-print(You:I didn't know anyone lived here.)
+print("You:I didn't know anyone lived here.")
 input()
-print(Old Man:Well...)
+print("Old Man:Well...")
 input()
-print(Old Man:I'm sorry for getting cranky at ya,)
+print("Old Man:I'm sorry for getting cranky at ya,")
 input()
-print(Old Man:You never know who can be lurking...)
+print("Old Man:You never know who can be lurking...")
+input()
+print("Old Man: have 5 coins to by yourself a sword and come back here to train")
+input()
+print("You:.. Thanks?")
+
+
