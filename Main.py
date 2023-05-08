@@ -1,24 +1,30 @@
 import time
 import random
 goldCoins=10
-print("you are a brave adventurer looking for a quest")
+print("You are strolling through the forrest")
 time.sleep(1)
-input("press enter to continue")
-print("you spot a Castle")
+input("press space to continue")
+print("You have found a strange looking house")
 input()
-print("you have decided to see what awaits in this castle")
-input
-print("you have entered the castle")
-time.sleep(1)
+if input("go in to the house?(type 1 for yes type 2 for no)")==2:
+  print("you walk away and go about your life.")
+  time.sleep(1)
+  print("THE END.")
+  exit()
+print("You enter the strange looking house")
+input()
+print("Old Man:What are you doing here!")
+input()
+print("You:I didn't know anyone lived here.")
+input()
+print("Old Man:Well...")
+input()
+print("Old Man:I'm sorry for getting cranky at ya,")
+input()
+print("Old Man:You never know who can be lurking...")
+input()
+print("Old Man: have 5 coins to by yourself a sword and come back here to train")
+input()
+print("You:.. Thanks?")
 
-thing = input("turn left or right?(type 1 for right type 2 for left)")
-if thing == 1:
-  print("You have reached a door")
-  input("You go in the door")
-  print("You find a chest with 30 gold coins! ")
-  input("+30 gold coins")
-  goldCoins+=30
-  print("your total is:"+goldCoins)
-elif thing == 2:
-  print("You have found a trapdoor")
-  
+
