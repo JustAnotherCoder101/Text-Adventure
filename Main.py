@@ -1,5 +1,5 @@
 import time
-print("You are a adventurer strolling throu the forrest")
+print("You are a adventurer strolling through the forrest")
 time.sleep(1)
 input("press space to continue")
 print("You have found a strange looking house")
@@ -9,4 +9,14 @@ if input("go in to the house?(type 1 for yes type 2 for no)")==2:
   time.sleep(1)
   print("THE END.")
   exit()
-
+print("You enter the strange looking house")
+input()
+print(Old Man:What are you doing here!)
+input()
+print(You:I didn't know anyone lived here.)
+input()
+print(Old Man:Well...)
+input()
+print(Old Man:I'm sorry for getting cranky at ya,)
+input()
+print(Old Man:You never know who can be lurking...)
