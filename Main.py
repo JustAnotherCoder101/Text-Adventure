@@ -26,5 +26,7 @@ input()
 print("Old Man: have 5 coins to by yourself a sword and come back here to train")
 input()
 print("You:.. Thanks?")
+print("You walk out of the forrest and into the blacksmith")
+
 
 
