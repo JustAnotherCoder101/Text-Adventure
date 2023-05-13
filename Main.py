@@ -1,3 +1,4 @@
+import function
 import time
 import random
 goldCoins=10
