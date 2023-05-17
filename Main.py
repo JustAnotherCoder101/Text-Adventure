@@ -1,7 +1,7 @@
 import function
 import time
 import random
-goldCoins=10
+Coins=10
 print("You are strolling through the forrest")
 time.sleep(1)
 input("press space to continue")
@@ -27,6 +27,12 @@ input()
 print("Old Man: have 5 coins to by yourself a sword and come back here to train")
 input()
 print("You:.. Thanks?")
+input()
+Coins += 5
+print("+5 coins!")
+input()
+print("You now have"+Coins+"coins")
+input()
 print("You walk out of the forrest and into the blacksmith")
 
 
