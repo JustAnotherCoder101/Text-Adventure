@@ -2,7 +2,7 @@ import function
 import time
 import random
 Coins=10
-print("You are strolling through the forrest")
+print("You are strolling through the forrest with your bag of 10 coins")
 time.sleep(1)
 input("press enter to continue")
 print("You have found a strange looking house")
