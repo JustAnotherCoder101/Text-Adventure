@@ -4,7 +4,7 @@ import random
 Coins=10
 print("You are strolling through the forrest")
 time.sleep(1)
-input("press space to continue")
+input("press enter to continue")
 print("You have found a strange looking house")
 input()
 if input("go in to the house?(type 1 for yes type 2 for no)")==2:
