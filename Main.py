@@ -2,12 +2,12 @@ import function
 import time
 import random
 Coins=10
-print("You are strolling through the forrest with your bag of 10 coins")
+print("You are strolling through the unexplored,dense forrest")
 time.sleep(1)
 input("press enter to continue")
 print("You have found a strange looking house")
 input()
-if input("go in to the house?(type 1 for yes type 2 for no)")==2:
+if input("go in to the house?(type 1 for yes type 2 for no)")==1:
   print("you walk away and go about your life.")
   time.sleep(1)
   print("THE END.")
@@ -26,7 +26,7 @@ print("Old Man:You never know who can be lurking...")
 input()
 print("Old Man:Would you like to learn some skills?")
 input()
-print("Okay?")
+print("You:Okay?")
 input()
 print("Old Man: have 5 coins to by yourself a sword and come back here to train")
 input()
@@ -35,9 +35,9 @@ input()
 Coins += 5
 print("+5 coins!")
 input()
-print("You now have"+Coins+"coins")
+print("You now have "+str(Coins)+" coins")
 input()
-print("You walk out of the forrest and into the blacksmith")
+print("You walk out of the forrest and to the blacksmith's shop")
 
 
 
