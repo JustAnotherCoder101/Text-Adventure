@@ -38,6 +38,12 @@ input()
 print("You now have "+str(Coins)+" coins")
 input()
 print("You walk out of the forrest and to the blacksmith's shop")
+print("As You walk out of the forrest you don't feel right...")
+time.sleep(0.5)
+print("you think you hear somthing but look back and find nothing")
+time.sleep(0.5)
+print('"It was probably nothing" you say but you know somthing was off..')
+input()
 
 
 
