@@ -44,6 +44,8 @@ print("you think you hear somthing but look back and find nothing")
 time.sleep(0.5)
 print('"It was probably nothing" you say but you know somthing was off..')
 input()
+function.tshop(Coins)
+
 
 
 
