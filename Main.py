@@ -2,6 +2,7 @@ import function
 import time
 import random
 Coins=10
+Inventory = []
 print("You are strolling through the unexplored,dense forrest")
 time.sleep(1)
 input("press enter to continue")
@@ -49,10 +50,11 @@ time.sleep(0.5)
 print()
 print('"It was probably nothing" you say but you know somthing was off..')
 input()
-function.tshop(Coins)
+Coins = Coins + function.tshop(Coins)
 print()
 print("You go back through the forrest,to the man then into the house")
 input()
+
 
 
 
