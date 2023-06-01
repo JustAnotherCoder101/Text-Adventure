@@ -3,6 +3,9 @@ import time
 import random
 Coins=10
 Inventory = []
+Lvl = 1
+XP = 0
+XPLvl = 20
 print("You are strolling through the unexplored,dense forrest")
 time.sleep(1)
 input("press enter to continue")
