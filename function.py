@@ -1,5 +1,4 @@
 def tshop(Coins):
-  global Inventory
   print("You reach the blacksmith's")
   input
   print("BlackSmith:Sorry Kid,this sword is the only thing available today")
@@ -8,11 +7,10 @@ def tshop(Coins):
   input()
   while True:
     if input("press 1 to buy the sword for 5 coins.")=="1":
-      Inventory.append("Sword")
       Coins =- 5
       print("Sword bought!")
       print("you now have "+str(Coins)+" coins")
-      return -5
+      return "Sword1"
     else:
       print("Sorry, that was not a available input")
       print()
@@ -24,17 +22,15 @@ def shop(Coins):
     print("1=sword(costs 5 coins) 2=health potion(costs 2 coins)")
     id = input()
     if id =="1":
-      Inventory.append("SwordLv2")
       Coins =- 5
       print("Sword bought!")
       print("you now have "+str(Coins)+" coins")
-      return -5
+      return "SwordLv2"
     elif id =="2":
-      Inventory.append("HPlv1")
       Coins =- 2
       print("Sword bought!")
       print("you now have "+str(Coins)+" coins")
-      return -2
+      return "HP1"
     else:
       print("Sorry, that was not a available input")
       print()
